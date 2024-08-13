@@ -1,0 +1,30 @@
+# Ignore build output directory
+/bin/
+/target/
+
+# Ignore Eclipse specific files
+!/.classpath
+/.project
+
+# Ignore specific OS files
+*.DS_Store
+Thumbs.db
+
+# Ignore IDE specific files (except .settings)
+.idea/
+/*.iml
+.vscode/
+
+# Ignore compiled Java classes
+*.class
+
+# Ignore logs
+*.log
+
+# Ignore Maven and Gradle directories
+/.mvn/
+/.gradle/
+/build/
+
+# Include Eclipse settings
+!/.settings/
